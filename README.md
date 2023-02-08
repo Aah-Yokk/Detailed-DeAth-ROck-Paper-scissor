@@ -5,7 +5,7 @@ IMPORTANT:- Consult the console in the developer tool!(Presuming the reader is f
 
 1.Starting the game!
 
-  (a):-Press to button to start the game.
+  (a):-Press the button to start the game.
   (b):-A pop up appears where you must choose between rock,paper or scissors.  (If nothing is given as the answer the message will change to null)
   (c):-The game will be played five time continously.
   (d):-After finishing the game,the result will be given along with the hands played.
@@ -30,7 +30,7 @@ IMPORTANT:- Consult the console in the developer tool!(Presuming the reader is f
     
     Be noted that this function are called one after another
 
-  (iii):-The variable or function player() ask for an input which if cancelled will end the session which a alert message and break the while loop but it you didn't cancel and wrote, say rock (irrespective of the capitalization) the game will continue but if you write anything other than rock,paper or scissor the while loop checks by the variable "variable" if the input is fales i.e if you wrote rock,paper and scissor than it returns true if not then it returns false and it changes the prompt message to "RPS" and the round resets and if you didn't write anything and passed it on,the other while loop changes the prompt message to "It's null" after each successive round (iteration) it returns the input.
+  (iii):-The variable or function player() ask for an input which if cancelled will end the session which a alert message and break the while loop but it you didn't cancel and wrote, say rock (irrespective of the capitalization) the game will continue but if you write anything other than rock,paper or scissor the while loop checks by the variable "variable" if the input is fales i.e if you wrote rock,paper and scissor than it returns true if not then it returns false and it changes the prompt message to "ROCK, PAPER OR SCISSOR IDIOT!" and the round resets and if you didn't write anything and passed it on,the other while loop changes the prompt message to "It's null" after each successive round (iteration) it returns the input.
       The variable check calls a function validateInput(choice) which returns the value to the function after it include the data of the array varaible "choices" to its parameter "choice" which is used to check the input of the player by the variable "check".If you notice it says in the variable "check" validateInput(input) which assures the input is anything under the array variable "choices" since the choice parameter recieves its data from the array variable "choices".
   (iv) The comp variable or function is a function which using the method Math.floor rounds up the Math.random to the nearest integer i.e 1 and the random method multiplied by the length of the variable "choices" and what this accomplish is that since the number of data in array variable "choices" is 3 and the data inside the array can be called numerically which usually starts from 0 which means the firt data in our choises which is rock will be 1,paper will be 2 and scissor will be 3, the Math.random creates a random number between 0 and 1 which is then multiplied by 3 and then after getting rounded to the closest integer by Math.floor makes the chance of getting rock,paper and scissor 1/3 and after this is done it returns the value.
   
