@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
-button {
+#opbtn{
     width: 130px;
     height: auto;
     background-color:chartreuse;
@@ -13,7 +13,7 @@ button:hover{
     cursor:crosshair;
 }
 #no{
-    background-color:black;
+    background-color:burlywood;
     color:brown;
     font-style:italic;
     font-size:bold;
