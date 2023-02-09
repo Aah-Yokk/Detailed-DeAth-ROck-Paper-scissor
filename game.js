@@ -188,7 +188,8 @@ function btnchecker(){
     }
 
 }
-
+newdiv2.style.margin= "150px"
+newdiv2.style.marginTop = "-100px"
 newdiv2.style.textAlign = "center"
 newdiv2.style.border = "3px solid"
 newdiv2.style.borderRadius = "25px"
